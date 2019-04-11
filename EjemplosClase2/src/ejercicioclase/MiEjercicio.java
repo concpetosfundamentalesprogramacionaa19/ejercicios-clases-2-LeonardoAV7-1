@@ -47,8 +47,9 @@ public class MiEjercicio {
         
         promedio = (nota1+nota2)/2;
         
-        System.out.printf("Sus nombres y apellidos: %s \nEdad: %s \nCiudad: %s \nPaís: %s \nNotas: %s, %s \nPromedio; %s", nombre,
-                 edad, ciudad, pais, nota1, nota2, promedio);
+        System.out.printf("Sus nombres y apellidos: %s \nEdad: %s \nCiudad: %s"
+                + "\nPaís: %s \nNotas: %s, %s \nPromedio; %s", nombre,
+                edad, ciudad, pais, nota1, nota2, promedio);
        
         
         
